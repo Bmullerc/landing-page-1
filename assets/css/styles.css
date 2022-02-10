@@ -333,9 +333,9 @@ body .full-width {
     color: var(--primary-color)
 }
 
-.heart {
+/*.heart {
     color: var(--secondary-color);
-}
+}*/
 
 .footer p {
     margin: 0;
@@ -344,6 +344,22 @@ body .full-width {
 
 .close-menu {
     display: none;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background: var(--white-color);
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: var(--primary-color);
+    transform: rotate(-90deg);
+    border: .1rem solid var(--primary-color);
 }
 
 @media (max-width: 800px) {
